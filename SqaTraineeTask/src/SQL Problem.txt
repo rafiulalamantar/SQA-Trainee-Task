@@ -1,0 +1,5 @@
+CREATE TABLE Students (
+  ID INT PRIMARY KEY,
+  Name varchar(25) NOT NULL,
+  Marks INT NOT NULL
+);
