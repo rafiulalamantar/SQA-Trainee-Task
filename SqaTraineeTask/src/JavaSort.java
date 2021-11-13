@@ -49,5 +49,8 @@ public class JavaSort
                 return s1.getFname().compareTo(s2.getFname());
             }
     });
+      for(Student st: studentList){
+          System.out.println(st.getFname());
    }
+  }
 }
