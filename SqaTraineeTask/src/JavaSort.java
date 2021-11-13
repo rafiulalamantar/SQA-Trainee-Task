@@ -38,5 +38,16 @@ public class JavaSort
          
          testCases--;
       }
+      Collections.sort(studentList, new Comparator<Student>() {
+          
+           public int compare(Student s1, Student s2) {
+                if(s2.getCgpa()>s1.getCgpa()){
+                    return 1;
+                }else if(s2.getCgpa()<s1.getCgpa()){
+                    return -1;
+                }
+                return s1.getFname().compareTo(s2.getFname());
+            }
+    });
    }
 }
