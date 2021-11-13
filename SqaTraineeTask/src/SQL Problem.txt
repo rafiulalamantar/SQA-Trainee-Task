@@ -3,3 +3,8 @@ CREATE TABLE Students (
   Name varchar(25) NOT NULL,
   Marks INT NOT NULL
 );
+
+INSERT INTO Students VALUES (1, 'Ashley', 81);
+INSERT INTO Students VALUES (2, 'Samantha', 75);
+INSERT INTO Students VALUES (3, 'Julia', 76);
+INSERT INTO Students VALUES (4, 'Belvet', 84);
