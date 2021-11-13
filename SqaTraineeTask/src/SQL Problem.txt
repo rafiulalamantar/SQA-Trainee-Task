@@ -8,3 +8,5 @@ INSERT INTO Students VALUES (1, 'Ashley', 81);
 INSERT INTO Students VALUES (2, 'Samantha', 75);
 INSERT INTO Students VALUES (3, 'Julia', 76);
 INSERT INTO Students VALUES (4, 'Belvet', 84);
+
+Select name from Students where marks > 75 ORDER BY substr(name,-3) asc, id asc;
